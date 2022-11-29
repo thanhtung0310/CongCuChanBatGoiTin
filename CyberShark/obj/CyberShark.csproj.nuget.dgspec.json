@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vuaph\\OneDrive\\Documents\\GitHub\\CapturePacket\\CyberShark\\CyberShark.csproj": {}
+    "D:\\Tung\\Study\\ĐATN\\đồ án\\CongCuChanBatGoiTin\\CyberShark\\CyberShark.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vuaph\\OneDrive\\Documents\\GitHub\\CapturePacket\\CyberShark\\CyberShark.csproj": {
+    "D:\\Tung\\Study\\ĐATN\\đồ án\\CongCuChanBatGoiTin\\CyberShark\\CyberShark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vuaph\\OneDrive\\Documents\\GitHub\\CapturePacket\\CyberShark\\CyberShark.csproj",
+        "projectUniqueName": "D:\\Tung\\Study\\ĐATN\\đồ án\\CongCuChanBatGoiTin\\CyberShark\\CyberShark.csproj",
         "projectName": "CyberShark",
-        "projectPath": "C:\\Users\\vuaph\\OneDrive\\Documents\\GitHub\\CapturePacket\\CyberShark\\CyberShark.csproj",
-        "packagesPath": "C:\\Users\\vuaph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vuaph\\OneDrive\\Documents\\GitHub\\CapturePacket\\CyberShark\\obj\\",
+        "projectPath": "D:\\Tung\\Study\\ĐATN\\đồ án\\CongCuChanBatGoiTin\\CyberShark\\CyberShark.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Tung\\Study\\ĐATN\\đồ án\\CongCuChanBatGoiTin\\CyberShark\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vuaph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
             "Be.Windows.Forms.HexBox": {
               "target": "Package",
@@ -46,11 +46,11 @@
             },
             "PacketDotNet": {
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.4.7, )"
             },
             "SharpPcap": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.2.5, )"
             },
             "packetnet-connections": {
               "target": "Package",
@@ -63,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

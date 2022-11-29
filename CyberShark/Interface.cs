@@ -31,7 +31,7 @@ namespace CyberShark
             {
                 if (!device.Interface.Addresses.Exists(a => a != null && a.Addr != null && a.Addr.ipAddress != null)) continue;
                 var devInterface = device.Interface;
-                var friendlyName = devInterface.FriendlyName;
+                var friendlyName = devInterface.FriendlyName ?? "Unknown interface...";
                 var description = devInterface.Description;
 
                 interfaceList.Add(device);
